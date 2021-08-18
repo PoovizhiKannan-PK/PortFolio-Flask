@@ -67,7 +67,7 @@ h1, h2, h3, h4, h5, h6 {
   z-index: 9997;
   transition: all 0.5s;
   padding: 0 15px;
-  background: #040b14;
+  background: url("../img/bg5.jpg") top center;
   overflow-y: auto;
 }
 
@@ -76,21 +76,22 @@ h1, h2, h3, h4, h5, h6 {
   display: block;
   width: 200px;
   height: 200px;
-  border: 8px solid #2c2f3f;
+  border: 8px solid #ffffff62;
 }
 
 #header .profile h1 {
   font-size: 24px;
   margin: 0;
   padding: 0;
-  font-weight: 600;
+  font-weight: 300;
   -moz-text-align-last: center;
   text-align-last: center;
   font-family: "Poppins", sans-serif;
+  color: rgb(0, 0, 0);
 }
 
 #header .profile h1 a, #header .profile h1 a:hover {
-  color: #fff;
+  color: #2e9efa;
   text-decoration: none;
 }
 
@@ -150,7 +151,7 @@ h1, h2, h3, h4, h5, h6 {
 .nav-menu a {
   display: flex;
   align-items: center;
-  color: #a8a9b4;
+  color: #000000;
   padding: 12px 15px;
   margin-bottom: 8px;
   transition: 0.3s;
@@ -160,16 +161,16 @@ h1, h2, h3, h4, h5, h6 {
 .nav-menu a i {
   font-size: 24px;
   padding-right: 8px;
-  color: #6f7180;
+  color: #000000;
 }
 
 .nav-menu a:hover, .nav-menu .active, .nav-menu li:hover > a {
   text-decoration: none;
-  color: #fff;
+  color: #00aeff;
 }
 
 .nav-menu a:hover i, .nav-menu .active i, .nav-menu li:hover > a i {
-  color: #149ddd;
+  color: #00aeff;
 }
 
 /* Mobile Navigation */
@@ -396,7 +397,7 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Akills
+# Skills
 --------------------------------------------------------------*/
 .skills .progress {
   height: 60px;
@@ -849,7 +850,7 @@ section {
   bottom: 0;
   width: 300px;
   z-index: 9999;
-  background: #040b14;
+  background: #040b1400;
 }
 
 
